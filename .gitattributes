@@ -1,0 +1,56 @@
+# ==============================================
+# Text file normalization and diff settings
+# ==============================================
+* text=auto
+
+# Force CRLF→LF normalization for some Unity‐specific text files:
+*.cs      text diff=csharp
+*.shader  text
+*.asmdef  text
+*.asset   text
+*.txt     text
+*.xml     text
+*.json    text
+*.yaml    text
+*.yml     text
+*.md      text
+
+# ==============================================
+# Unity YAML Smart Merge (if you have unityyamlmerge)
+# ==============================================
+# To enable Unity’s built-in merge tool, first configure git:
+# git config --global merge.unityyamlmerge.path "C:/Program Files/Unity/Hub/Editor/<VERSION>/Editor/Data/Tools/unityyamlmerge.exe"
+# git config --global mergetool.unityyamlmerge.cmd '"C:/Program Files/Unity/Hub/Editor/<VERSION>/Editor/Data/Tools/unityyamlmerge.exe" merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"'
+# Then uncomment these lines below:
+
+# *.unity   merge=unityyamlmerge eol=lf
+# *.prefab  merge=unityyamlmerge eol=lf
+# *.asset   merge=unityyamlmerge eol=lf
+# *.anim    merge=unityyamlmerge eol=lf
+# *.mat     merge=unityyamlmerge eol=lf
+
+# ==============================================
+# Binary files (do not attempt to diff or merge)
+# ==============================================
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.tga     binary
+*.psd     binary
+*.fbx     binary
+*.obj     binary
+*.mp3     binary
+*.wav     binary
+*.ogg     binary
+*.aac     binary
+*.flac    binary
+*.dll     binary
+*.exe     binary
+*.apk     binary
+*.aab     binary
+
+# ML-Agents model files (binary)
+*.onnx    binary
+*.pth     binary
+
