@@ -1,0 +1,28 @@
+# Enforce LF line endings for text-based files
+*.cs        text eol=lf
+*.shader    text eol=lf
+*.asmdef    text eol=lf
+*.json      text eol=lf
+
+# Enable Unity Smart Merge for YAML-based assets
+*.unity     merge=unityyaml merge eol=lf
+*.prefab    merge=unityyaml merge eol=lf
+*.asset     merge=unityyaml merge eol=lf
+*.anim      merge=unityyaml merge eol=lf
+ProjectSettings/*.txt   merge=unityyaml merge eol=lf
+ProjectSettings/*.asset merge=unityyaml merge eol=lf
+
+# Meta files are YAML too
+*.meta      merge=unityyaml merge eol=lf
+
+# Treat common binary assets as binary
+*.fbx       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.tga       binary
+*.wav       binary
+*.mp3       binary
+*.ogg       binary
+*.zip       binary
+*.rar       binary

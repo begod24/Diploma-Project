@@ -1,0 +1,49 @@
+# ========== Unity Generated Folders ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+
+# ========== Logs & Crash Dumps ==========
+*.log
+*.stacktrace
+sysinfo.txt
+
+# ========== IDE & Build Files ==========
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# ========== Build Outputs ==========
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+
+# ========== Addressables Cache ==========
+/Library/com.unity.addressables/
+
+# ========== IDE Folders ==========
+.vscode/
+.idea/
+*.vsconfig
+
+# Never ignore Unity .meta files — they link assets internally
+!**/*.meta
+
+# Ignore UnityPackage exports
+*.unitypackage
