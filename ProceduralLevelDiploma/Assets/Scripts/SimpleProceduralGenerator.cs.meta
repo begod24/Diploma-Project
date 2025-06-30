@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 88139574563ee684da88adab99196017
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - floorPrefab: {fileID: 7246195810006055876, guid: a20bea64443ff8c47a189f9af20fe8ee, type: 3}
+  - wallPrefab: {fileID: 865058767067510596, guid: 091e95ed9da2e75429007970e91059b0, type: 3}
+  - doorPrefab: {fileID: 483385357901912791, guid: 16c52b268cb283b4e8c5f37f9b40d48d, type: 3}
+  - ceilingPrefab: {fileID: 3318327399531687940, guid: cf5325b9a0da164449d4a818ba0eb513, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
